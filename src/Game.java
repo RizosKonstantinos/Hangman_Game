@@ -37,8 +37,7 @@ public class Game {
 		Player thePlayer = new Player();
 		String playersGuess;
 		
-	//	System.out.println();
-	//	System.out.println("*** GAME STARTED ***");
+
 		printGameStart();
 				
 		while(!solved && thePlayer.getTries()>0){
@@ -175,6 +174,8 @@ public class Game {
 		usedLettersCounter++;
 	}
 
+
+	/* Prints a message on screen to inform the player that the game has started */
 	public void printGameStart(){
 		System.out.println();
 		System.out.println();
