@@ -242,4 +242,5 @@ public class Game {
 		
 		return defeats;
 	}
+	
 }
